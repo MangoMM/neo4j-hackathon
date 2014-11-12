@@ -1,0 +1,17 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    java (1.28.0)
+
+GIT
+  remote: http://github.com/michaelklishin/neo4j-server-chef-cookbook
+  ref: master
+  sha: 1df63b8f534d24433d489769e19e783b66c5947c
+  specs:
+    neo4j-server (1.0.1)
+      java (>= 0.0.0)
+
+DEPENDENCIES
+  java (>= 0)
+  neo4j-server (>= 0)
+
