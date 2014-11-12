@@ -1,4 +1,8 @@
 site 'http://community.opscode.com/api/v1'
 
+cookbook 'vim'
+cookbook 'curl'
+cookbook 'php'
+cookbook 'git'
 cookbook 'java'
 cookbook 'neo4j-server', :git => 'http://github.com/michaelklishin/neo4j-server-chef-cookbook'

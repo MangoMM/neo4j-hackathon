@@ -23,12 +23,14 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision "chef_solo" do |chef|
     chef.custom_config_path = "Vagrantfile.chef"
-    #chef.environment = "development"
-    #chef.environments_path = "chef/environments/"
+    chef.environment = "development"
+    chef.environments_path = "chef/environments/"
 
     chef.cookbooks_path = [ "chef/cookbooks/"]
     chef.roles_path = "chef/roles/"
 
+    chef.add_role "basic"
+    chef.add_role "php"
     chef.add_role "neo4j"
   end
 

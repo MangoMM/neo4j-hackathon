@@ -1,0 +1,14 @@
+{
+  "name": "Highly Recommended",
+  "description": "Basic recommendation for products.",
+  "require": {
+    "everyman/neo4jphp": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {"": "src/"}
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "minimum-stability": "stable"
+}

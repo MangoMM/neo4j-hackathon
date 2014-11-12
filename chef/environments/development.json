@@ -1,0 +1,29 @@
+{
+  "name": "development",
+  "default_attributes": {
+    "php": {
+      "conf_dir": "/etc/php5",
+      "packages": [
+        "php5-curl",
+        "php5-xdebug"
+      ],
+      "directives": {
+        "suhosin.executor.include.whitelist": "phar",
+        "zend.enable_gc": "On",
+        "max_execution_time": 240,
+        "max_input_time": 120,
+        "memory_limit": "512M",
+        "date.timezone": "Europe/London",
+        "xdebug.remote_enable" : 1,
+        "xdebug.remote_connect_back" : 0,
+        "xdebug.idekey": "vagrant",
+        "xdebug.remote_host": "178.32.33.1",
+        "xdebug.var_display_max_depth": 5,
+        "xdebug.max_nesting_level": 250
+      }
+    }
+  },
+  "json_class": "Chef::Environment",
+  "description": "",
+  "chef_type": "environment"
+}

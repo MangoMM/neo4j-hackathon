@@ -1,7 +1,45 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
+    build-essential (2.1.2)
+    chef-sugar (2.4.1)
+    chef_handler (1.1.6)
+    curl (2.0.0)
+    dmg (2.2.0)
+    git (4.0.2)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 1.0.0)
+      windows (>= 0.0.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
+    iis (2.1.6)
+      windows (>= 1.34.6)
     java (1.28.0)
+    mysql (5.6.1)
+      yum-mysql-community (>= 0.0.0)
+    php (1.5.0)
+      build-essential (>= 0.0.0)
+      iis (>= 0.0.0)
+      mysql (>= 0.0.0)
+      windows (>= 0.0.0)
+      xml (>= 0.0.0)
+      yum-epel (>= 0.0.0)
+    runit (1.5.10)
+      build-essential (>= 0.0.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
+    vim (1.1.2)
+    windows (1.34.8)
+      chef_handler (>= 0.0.0)
+    xml (1.2.6)
+      build-essential (>= 0.0.0)
+      chef-sugar (>= 0.0.0)
+    yum (3.4.1)
+    yum-epel (0.5.2)
+      yum (~> 3.0)
+    yum-mysql-community (0.1.10)
+      yum (>= 3.0)
 
 GIT
   remote: http://github.com/michaelklishin/neo4j-server-chef-cookbook
@@ -12,6 +50,10 @@ GIT
       java (>= 0.0.0)
 
 DEPENDENCIES
+  curl (>= 0)
+  git (>= 0)
   java (>= 0)
   neo4j-server (>= 0)
+  php (>= 0)
+  vim (>= 0)
 
