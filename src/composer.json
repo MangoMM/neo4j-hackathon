@@ -1,6 +1,6 @@
 {
   "name": "Highly Recommended",
-  "description": "Basic recommendation for products.",
+  "description": "Basic recommendation engine for products.",
   "require": {
     "everyman/neo4jphp": "dev-master"
   },
