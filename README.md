@@ -1,7 +1,7 @@
 neo4j-hackathon
 ===============
 
-### Instalation
+### Installation
 
 1. Download and install [Vagrant](https://www.vagrantup.com/)
 2. `cd ~/Sites`
