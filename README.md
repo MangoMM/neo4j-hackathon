@@ -9,3 +9,4 @@ neo4j-hackathon
 7. `cd /vagrant/src`
 8. `curl -sS https://getcomposer.org/installer | php`
 9. `./composer.phar install`
+10. `php neo4jphp_connect_test.php`
