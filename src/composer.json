@@ -2,7 +2,8 @@
   "name": "Highly Recommended",
   "description": "Basic recommendation engine for products.",
   "require": {
-    "everyman/neo4jphp": "dev-master"
+    "everyman/neo4jphp": "dev-master",
+    "silex/silex": "~1.2"
   },
   "autoload": {
     "psr-0": {"": "src/"}
