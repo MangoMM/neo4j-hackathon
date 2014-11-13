@@ -3,7 +3,7 @@ neo4j-hackathon
 
 ### Installation
 
-1. Download and install [Vagrant](https://www.vagrantup.com/)
+1. Download and install [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/)
 2. `cd ~/Sites`
 3. `git clone https://github.com/whisller/neo4j-hackathon`
 4. `cd neo4j-hackathon`
